@@ -5,7 +5,7 @@ import Reservation from './pages/Reservation/Reservation.component'
 
 const App = () => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route exact path='/'>
           <HomePage />
