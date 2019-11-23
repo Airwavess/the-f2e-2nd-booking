@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/the-f2e-2nd-booking/static/css/main.61f82772.chunk.css",
+    "main.js": "/the-f2e-2nd-booking/static/js/main.68a531f3.chunk.js",
+    "main.js.map": "/the-f2e-2nd-booking/static/js/main.68a531f3.chunk.js.map",
+    "runtime-main.js": "/the-f2e-2nd-booking/static/js/runtime-main.fcabcc40.js",
+    "runtime-main.js.map": "/the-f2e-2nd-booking/static/js/runtime-main.fcabcc40.js.map",
+    "static/css/2.30861e7f.chunk.css": "/the-f2e-2nd-booking/static/css/2.30861e7f.chunk.css",
+    "static/js/2.e6329474.chunk.js": "/the-f2e-2nd-booking/static/js/2.e6329474.chunk.js",
+    "static/js/2.e6329474.chunk.js.map": "/the-f2e-2nd-booking/static/js/2.e6329474.chunk.js.map",
+    "index.html": "/the-f2e-2nd-booking/index.html",
+    "precache-manifest.ea9bea8b62376d53aff7711deb467237.js": "/the-f2e-2nd-booking/precache-manifest.ea9bea8b62376d53aff7711deb467237.js",
+    "service-worker.js": "/the-f2e-2nd-booking/service-worker.js",
+    "static/css/2.30861e7f.chunk.css.map": "/the-f2e-2nd-booking/static/css/2.30861e7f.chunk.css.map",
+    "static/css/main.61f82772.chunk.css.map": "/the-f2e-2nd-booking/static/css/main.61f82772.chunk.css.map",
+    "static/media/ArrowLeft.svg": "/the-f2e-2nd-booking/static/media/ArrowLeft.92b2b337.svg",
+    "static/media/ArrowRight.svg": "/the-f2e-2nd-booking/static/media/ArrowRight.c8c37a26.svg",
+    "static/media/Breakfast icon.svg": "/the-f2e-2nd-booking/static/media/Breakfast icon.7318a054.svg",
+    "static/media/Component.svg": "/the-f2e-2nd-booking/static/media/Component.686b4880.svg",
+    "static/media/Conditioner icon.svg": "/the-f2e-2nd-booking/static/media/Conditioner icon.e3deccae.svg",
+    "static/media/Confirm icon.svg": "/the-f2e-2nd-booking/static/media/Confirm icon.ca7f6249.svg",
+    "static/media/Couch icon.svg": "/the-f2e-2nd-booking/static/media/Couch icon.ed5e5c95.svg",
+    "static/media/Kid-friendly icon.svg": "/the-f2e-2nd-booking/static/media/Kid-friendly icon.38da24eb.svg",
+    "static/media/Mail.svg": "/the-f2e-2nd-booking/static/media/Mail.e8977e51.svg",
+    "static/media/Mini bar icon.svg": "/the-f2e-2nd-booking/static/media/Mini bar icon.2d424aa3.svg",
+    "static/media/No smoking icon.svg": "/the-f2e-2nd-booking/static/media/No smoking icon.69a8b062.svg",
+    "static/media/Pet-friendly icon.svg": "/the-f2e-2nd-booking/static/media/Pet-friendly icon.5f4d7030.svg",
+    "static/media/Refrigerator icon.svg": "/the-f2e-2nd-booking/static/media/Refrigerator icon.6df839a5.svg",
+    "static/media/Room service icon.svg": "/the-f2e-2nd-booking/static/media/Room service icon.7a838166.svg",
+    "static/media/Telephone icon.svg": "/the-f2e-2nd-booking/static/media/Telephone icon.df74e961.svg",
+    "static/media/Telephone.svg": "/the-f2e-2nd-booking/static/media/Telephone.06ce307b.svg",
+    "static/media/View icon.svg": "/the-f2e-2nd-booking/static/media/View icon.7258a637.svg",
+    "static/media/Wifi icon.svg": "/the-f2e-2nd-booking/static/media/Wifi icon.56d79646.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fcabcc40.js",
+    "static/css/2.30861e7f.chunk.css",
+    "static/js/2.e6329474.chunk.js",
+    "static/css/main.61f82772.chunk.css",
+    "static/js/main.68a531f3.chunk.js"
+  ]
+}
