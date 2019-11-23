@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/the-f2e-2nd-booking/precache-manifest.ea9bea8b62376d53aff7711deb467237.js"
+  "/the-f2e-2nd-booking/precache-manifest.d6e1165dee6e44c3a61cf19556ea9050.js"
 );
 
 self.addEventListener('message', (event) => {
