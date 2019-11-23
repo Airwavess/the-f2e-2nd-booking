@@ -1,0 +1,38 @@
+$font-color: #8c9a65;
+$btn-bg-color: #8c9a65;
+$btn-font-color: #fff;
+
+.reservation-success {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  height: 100%;
+  color: $font-color;
+  text-align: center;
+
+  .reservation-success__success-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    margin-top: 60px;
+
+    p {
+      width: 300px;
+    }
+  }
+
+  &__button {
+    width: 350px;
+    height: 84px;
+    background-color: $btn-bg-color;
+    color: $btn-font-color;
+    border: none;
+    z-index: 1;
+    cursor: pointer;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+$primary: #8c9a65;
+
+.DateRangePickerInput {
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  width: 100%;
+}
+
+.DateRangePicker_picker {
+  z-index: 2;
+}
+
+.DateInput {
+  background-color: transparent;
+  color: $primary;
+}
+
+.DateRangePickerInput_arrow {
+  display: flex;
+  align-items: center;
+  color: $primary;
+}

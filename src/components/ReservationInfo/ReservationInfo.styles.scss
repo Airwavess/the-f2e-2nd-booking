@@ -1,0 +1,101 @@
+$font-color-primary: #8c9a65;
+$font-color-light-gray: rgba(102, 102, 102, 0.3);
+$font-color-gray: rgb(102, 102, 102);
+
+.DayPickerInput-OverlayWrapper {
+  z-index: 2;
+}
+
+.reservation-info {
+  position: relative;
+  padding: 60px 30px 0;
+  color: $font-color-primary;
+
+  &__room-type {
+    position: absolute;
+    top: -48px;
+    margin: 0;
+    font-size: 60px;
+    font-weight: bold;
+  }
+
+  &__room-info {
+    display: flex;
+
+    .reservation-info__room-description {
+      display: flex;
+      flex-direction: row;
+      flex: 1;
+    }
+
+    .reservation-info__room-reservation-info,
+    .reservation-info__room-property-info {
+      display: flex;
+      flex: 1.5;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-left: 60px;
+    }
+
+    .reservation-info__room-reservation-info {
+      .reservation-info__room-info-item {
+        width: 50%;
+
+        p {
+          margin: 0;
+        }
+
+        p:first-child {
+          color: $font-color-light-gray;
+        }
+
+        p:last-child {
+          color: $font-color-gray;
+        }
+
+        &:not(:first-child):not(:nth-child(2)) {
+          margin-top: 24px;
+        }
+      }
+    }
+
+    .reservation-info__room-property-info {
+      .reservation-info__room-property-info-header {
+        width: 100%;
+        margin: 0;
+        color: $font-color-light-gray;
+      }
+      .reservation-info__room-info-item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: calc(100% / 3);
+        margin-top: 12px;
+        color: $font-color-gray;
+
+        p {
+          margin: 0;
+          margin-left: 10px;
+        }
+
+        p:first-child {
+          background-color: $font-color-gray;
+        }
+
+        &:not(:nth-child(2)):not(:nth-child(3)):not(:nth-child(4)) {
+          margin-top: 24px;
+        }
+
+        &--del {
+          text-decoration: line-through;
+          color: $font-color-light-gray;
+        }
+      }
+    }
+  }
+
+  &__room-info-item {
+    display: flex;
+    flex-direction: column;
+  }
+}

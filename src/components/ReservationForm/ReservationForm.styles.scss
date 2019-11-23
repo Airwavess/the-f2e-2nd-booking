@@ -1,0 +1,107 @@
+$btn-bg-color: #8c9a65;
+$btn-font-color: #fff;
+$border-color: #fff;
+$font-color: #8c9a65;
+$color-light-gray: rgba(102, 102, 102, 0.3);
+$color-gray: rgb(102, 102, 102);
+
+.reservation-form {
+  height: calc(100% - 60px);
+  &__form-group {
+    width: 350px;
+    height: 100%;
+    padding-top: 16px;
+    transition: 0.3s ease-in-out;
+
+    .reservation-form__input-group,
+    .reservation-form__total-price,
+    .reservation-form__check-in-out {
+      margin: 0 32px;
+    }
+
+    .reservation-form__input-group {
+      border-bottom: 1px solid $border-color;
+
+      p {
+        font-size: 14px;
+        letter-spacing: 0.48px;
+      }
+
+      input {
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        font-family: 'Alata', sans-serif;
+        font-size: 20px;
+        color: $font-color;
+        letter-spacing: 0.64px;
+
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+
+    .reservation-form__total-price {
+      &-title {
+        display: flex;
+        justify-content: space-between;
+        color: $color-gray;
+
+        p {
+          border-bottom: 1px solid $border-color;
+          padding-bottom: 6px;
+        }
+
+        p:last-child {
+          text-align: right;
+          flex: 1;
+        }
+      }
+
+      h1 {
+        margin: 0;
+        color: $font-color;
+        text-align: right;
+        font-size: 28px;
+        font-weight: 500;
+      }
+    }
+
+    .reservation-form__check-in-out {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+
+      .reservation-form__text {
+        p {
+          margin: 0;
+        }
+
+        p:first-child {
+          color: $color-light-gray;
+        }
+        p:last-child {
+          color: $color-gray;
+        }
+      }
+    }
+  }
+
+  &__button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 350px;
+    height: 60px;
+    background-color: $btn-bg-color;
+    color: $btn-font-color;
+    border: none;
+    z-index: 1;
+    cursor: pointer;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
